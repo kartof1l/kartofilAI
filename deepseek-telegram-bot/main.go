@@ -24,7 +24,7 @@ const (
 
 // Список резервных API ключей (добавьте свои ключи)
 var apiKeys = []string{
-	"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", // Основной ключ
+	"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", // Основной ключ
 	"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", // Резервный ключ 1
 	"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", // Резервный ключ 2
 	"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", // Резервный ключ 3
@@ -348,3 +348,4 @@ func main() {
 		}(update) // Передаем update в горутину
 	}
 }
+
