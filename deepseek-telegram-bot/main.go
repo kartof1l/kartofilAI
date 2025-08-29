@@ -25,10 +25,10 @@ const (
 // Список резервных API ключей (добавьте свои ключи)
 var apiKeys = []string{
 	"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", // Основной ключ
-	"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", // Резервный ключ 1
+	"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", // Резервный ключ 1
 	"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", // Резервный ключ 2
 	"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", // Резервный ключ 3
-	"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", // Резервный ключ 4 бывает что опенроутер удаляет ключи
+	"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", // Резервный ключ 4
 }
 
 // Структура для управления API ключами
@@ -348,5 +348,3 @@ func main() {
 		}(update) // Передаем update в горутину
 	}
 }
-
-
